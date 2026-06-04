@@ -13,7 +13,9 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "composite": true
+    "composite": true,
+    "types": ["node"],
+    "noImplicitAny": false
   },
-  "include": ["electron/**/*"]
+  "include": ["electron/**/*", "electron.d.ts"]
 }

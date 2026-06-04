@@ -102,7 +102,7 @@ function HomePage() {
             transition={{ delay: 0.05, duration: 0.4 }}
             className="mb-6"
           >
-            <Logo size={80} />
+            <Logo size={190} />
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 10 }}

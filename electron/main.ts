@@ -29,7 +29,7 @@ function createWindow() {
       nodeIntegration: false,
       sandbox: false,
     },
-    icon: path.join(__dirname, '..', 'assets', 'icon.png'),
+    icon: isDev ? path.join(__dirname, '..', '..', 'assets', 'icon.png') : path.join(__dirname, '..', 'assets', 'icon.png'),
     show: false,
   });
 

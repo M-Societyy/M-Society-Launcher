@@ -1,3 +1,5 @@
+import icon from '../../assets/icon.png';
+
 interface LogoProps {
   size?: number;
   className?: string;
@@ -6,7 +8,7 @@ interface LogoProps {
 function Logo({ size = 48, className = '' }: LogoProps) {
   return (
     <img
-      src="./icon.png"
+      src={icon}
       alt="M-Society"
       width={size}
       height={size}

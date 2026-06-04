@@ -98,9 +98,9 @@ function SplashScreen() {
             initial={{ opacity: 0, scale: 0.6, rotate: -180 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ duration: 1.2, ease: [0.4, 0, 0.2, 1] }}
-            className="w-32 h-32 rounded-2xl flex items-center justify-center overflow-hidden"
+            className="w-48 h-48 rounded-2xl flex items-center justify-center overflow-hidden"
           >
-            <Logo size={128} />
+            <Logo size={200} />
           </motion.div>
           <motion.div
             animate={{ rotate: 360 }}
